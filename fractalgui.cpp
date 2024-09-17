@@ -1,22 +1,3 @@
-/*
- * CS 106B/X Fractal Recursion Problems
- * This instructor-provided file defines the members of a class representing the
- * overall graphical user interface (GUI) for this part of the program.
- * See fractalgui.h for the class and member declarations.
- *
- * You don't need to modify this file.
- * Your recursive functions should work with an unmodified version of this file.
- *
- * @author Marty Stepp
- * @version 2016/10/16
- * - modified for 16au with additional fractals (tree)
- * @version 2015/04/24
- * - modified for 15sp version, including exception-handling
- * @version 2014/10/13
- * - modified for 14au version, including new version of floodFill
- * @version 2017/04/19
- * - removed flood fill, added mandelbrot set
- */
 
 #include "fractalgui.h"
 #include <cstdlib>
