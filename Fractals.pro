@@ -1,48 +1,4 @@
-# Stanford CS 106 B/X Qt Creator project file
-#
-# This file specifies the information about your project to Qt Creator.
-# You should not need to modify this file to complete your assignment.
-#
-# If you need to add files or folders to your project, we recommend the following:
-# - close Qt Creator.
-# - delete your ".pro.user" file and "build_xxxxxxx" directory.
-# - place the new files/folders into your project directory.
-# - re-open and "Configure" your project again.
-#
-# @author Marty Stepp
-#     (past authors/support by Reid Watson, Rasmus Rygaard, Jess Fisher, etc.)
-# @version 2016/10/18
-# - re-disabled Mac stack increase flag
-# @version 2016/10/15
-# - new stricter compiler warning flags (float equality comparison; null pointers; undefined macros; etc.)
-# @version 2016/10/13
-# - split StanfordCPPLib into subfolders: collections, graphics, io, private, system, util
-# @version 2016/09/24
-# - added private/*.cpp to sources
-# - added verification of .pro version by default
-# @version 2016/08/12
-# - fixed Windows release build problems
-# @version 2016/08/04
-# - added flag for throwing errors on op >> parsing (default off)
-# @version 2016/07/22
-# - added support for src/autograder/ directory
-# @version 2016/06/28
-# - fixed bugs with 'copydata' on Windows systems
-# @version 2016/06/24
-# - removed FONTSIZE setting; left to default and app configuration
-# - made output/ folder copy itself to subdir of build directory, if present
-# - improved code flow, structure, and comments
-# @version 2015/04/09
-# - decreased Mac stack size to avoid sporatic crashes on Mac systems
-# @version 2014/11/29
-# - added pthread library on Mac/Linux for running each test in its own thread
-# @version 2014/11/13
-# - fixes related to generating stack traces
-# - support for putting testing files in a src/test/ folder (used in development)
-# @version 2014/11/05
-# - improved/fixed flags for exception-handling
-# @version 2014/10/31
-# - standard autograder-compatible version; should work with all assignments and graders.
+
 
 TEMPLATE = app
 
